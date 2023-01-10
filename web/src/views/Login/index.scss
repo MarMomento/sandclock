@@ -1,0 +1,44 @@
+.login-page {
+  .main-part {
+    background-color: $blue-500;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 84px;
+    }
+  }
+
+  .login-part {
+    background-color: $bg-light;
+    height: 100vh;
+    position: relative;
+
+    .nav-tabs {
+      .nav-item {
+        flex: 1;
+      }
+
+      .nav-link {
+        width: 100%;
+        border: none;
+        border-radius: 0;
+        border-bottom: 3px solid transparent;
+        outline: none;
+        font-size: 1.2rem;
+
+        &.active {
+          background: transparent;
+          color: $blue-500;
+          border-bottom-color: $blue-500;
+        }
+
+        &:hover {
+          background: $blue-100;
+        }
+      }
+    }
+  }
+}

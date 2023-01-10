@@ -1,0 +1,13 @@
+.v-btn{
+
+  &.btn-link{
+    text-decoration: none;
+  }
+
+  &-block{
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 100% !important;
+    justify-content: center;
+  }
+}

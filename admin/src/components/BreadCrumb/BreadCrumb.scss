@@ -1,0 +1,21 @@
+ul.v-breadcrumbs {
+  li {
+    .v-breadcrumbs__item {
+      font-size: 1.125rem;
+      color: #6e6e6e;
+      cursor: pointer;
+    }
+
+    .v-breadcrumbs__divider {
+      i {
+        font-size: 22px;
+      }
+    }
+
+    &:last-child {
+      .v-breadcrumbs__item {
+        color: #536dfe;
+      }
+    }
+  }
+}

@@ -1,0 +1,37 @@
+@import "variables";
+
+mark {
+  background-color: yellow !important;
+  color: #000;
+}
+
+.side-menu {
+  .side-menu-item {
+    border: none;
+    background-color: inherit;
+    border-radius: $bd-radius-sm;
+
+    &:hover {
+      background-color: $gray-300;
+      cursor: pointer;
+
+      .side-menu-link {
+        color: $blue;
+      }
+    }
+
+    .side-menu-link {
+      text-decoration: none;
+      color: $gray-700;
+    }
+
+    &.active {
+      background-color: $gray-100;
+
+      .side-menu-link {
+        color: $black;
+        font-weight: bold;
+      }
+    }
+  }
+}
